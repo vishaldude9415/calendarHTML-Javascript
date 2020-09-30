@@ -1,4 +1,4 @@
-# Awesome Calendar built with pure HTMLand Javascript
+## Awesome Calendar built with pure HTMLand Javascript
 
 The program uses Date() function to build a simple calendar with Pure JavaScript and HTML. 
 Here's the final implementation of it - http://iamnitinpatel.com/projects/calendar
