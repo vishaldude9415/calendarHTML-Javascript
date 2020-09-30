@@ -1,17 +1,18 @@
-# Calendar with Pure JavaScript and HTML
+# Awesome Calendar built with pure HTMLand Javascript
 
 The program uses Date() function to build a simple calendar with Pure JavaScript and HTML. 
 Here's the final implementation of it - http://iamnitinpatel.com/projects/calendar
 
 ![alt html javascript calendar](https://cdn-images-1.medium.com/max/800/1*7nkXuZNIB7UUdSFKdIZHVQ.png)
 
-**Explanation-** When the program is started, the function *showCalendar()* is with arguments *currentMonth* and *currentYear*. 
+               **Explanation-**
+ When the program is started, the function *showCalendar()* is with arguments *currentMonth* and *currentYear*. 
 This function populates the table with dates at the correct places. 
 
 The buttons "previous", "next" and dropdown "jump" control the functions, *previous()*, *next()* and *jump()*. 
 These function update the *currentMonth* and *currentYear* variable. 
 
-**How showCalendar Works-** 
+          **How showCalendar Works-** 
 
 showCalendar(month, year) function which takes in two parameters, month and year. Once, the function is called, it dynamically generates a calendar in HTML and appends it into our table. Here’s my approach.
 
@@ -33,7 +34,7 @@ In the outer loop, we create a new “tr” element, ie, table row, up to 6 time
 
 In the inner loop, we populate each row with “td” elements in it. We keep track of the date using variable “date” in it.There are three if conditions at each iteration:
 
-If we’re at first row and we have not yet reached first yet, create td element and leave it blank.
+If we are at first row and we have not yet reached first yet, create td element and leave it blank.
 
 If “date” is higher than max days in that month, we break out of the loop because we have finished creating the table.
 
